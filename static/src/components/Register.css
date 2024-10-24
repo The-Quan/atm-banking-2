@@ -1,0 +1,48 @@
+/* Register.css */
+
+.register-container {
+    display: flex;
+    flex-direction: column; /* Sắp xếp các phần tử theo cột */
+    width: 400px; /* Đặt chiều rộng cho container */
+    padding: 20px; /* Thêm khoảng đệm cho container */
+    border: 1px solid #ccc; /* Thêm viền cho container */
+    border-radius: 5px; /* Bo góc cho container */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Thêm bóng cho container */
+    background-color: white; /* Đặt màu nền cho container */
+    margin: auto; /* Căn giữa container theo chiều ngang */
+    margin-top: 250px; /* Thêm khoảng cách từ trên xuống */
+}
+
+.register-title {
+    text-align: center; /* Căn giữa tiêu đề */
+    font-size: 24px; /* Đặt kích thước chữ cho tiêu đề */
+    margin-bottom: 20px; /* Thêm khoảng cách phía dưới tiêu đề */
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column; /* Sắp xếp các input theo cột */
+}
+
+.register-input {
+    margin-bottom: 15px; /* Thêm khoảng cách giữa các input */
+    padding: 10px; /* Thêm khoảng đệm cho các input */
+    border: 1px solid #ccc; /* Đặt viền cho input */
+    border-radius: 4px; /* Bo góc cho input */
+    font-size: 16px; /* Đặt kích thước chữ cho input */
+}
+
+.register-button {
+    padding: 10px; /* Thêm khoảng đệm cho nút */
+    background-color: #007bff; /* Đặt màu nền cho nút */
+    color: white; /* Đặt màu chữ cho nút */
+    border: none; /* Xóa viền cho nút */
+    border-radius: 4px; /* Bo góc cho nút */
+    cursor: pointer; /* Thay đổi con trỏ khi di chuột vào nút */
+    font-size: 16px; /* Đặt kích thước chữ cho nút */
+    transition: background-color 0.3s; /* Thêm hiệu ứng chuyển màu cho nút */
+}
+
+.register-button:hover {
+    background-color: #0056b3; /* Thay đổi màu nút khi di chuột vào */
+}
